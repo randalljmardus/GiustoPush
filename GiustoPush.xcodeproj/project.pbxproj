@@ -12,6 +12,12 @@
 		154800941CA2E1D800FB7E37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 154800921CA2E1D800FB7E37 /* Main.storyboard */; };
 		154800961CA2E1D800FB7E37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 154800951CA2E1D800FB7E37 /* Assets.xcassets */; };
 		154800991CA2E1D800FB7E37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 154800971CA2E1D800FB7E37 /* LaunchScreen.storyboard */; };
+		154800A31CA2E80E00FB7E37 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 154800A11CA2E80E00FB7E37 /* Fabric.framework */; };
+		154800A41CA2E80E00FB7E37 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 154800A21CA2E80E00FB7E37 /* Crashlytics.framework */; };
+		158D3C5E1CA32C22008AB0C6 /* GISplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 158D3C5D1CA32C22008AB0C6 /* GISplashViewController.m */; };
+		158D3C611CA32C99008AB0C6 /* GISignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 158D3C601CA32C99008AB0C6 /* GISignUpViewController.m */; };
+		158D3C641CA32D10008AB0C6 /* GILoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 158D3C631CA32D10008AB0C6 /* GILoginViewController.m */; };
+		158D3C671CA32D6F008AB0C6 /* GIForgotPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 158D3C661CA32D6F008AB0C6 /* GIForgotPasswordViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,17 @@
 		154800951CA2E1D800FB7E37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		154800981CA2E1D800FB7E37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1548009A1CA2E1D800FB7E37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		154800A11CA2E80E00FB7E37 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
+		154800A21CA2E80E00FB7E37 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
+		158D3C5B1CA32BA2008AB0C6 /* GISplashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GISplashViewController.h; sourceTree = "<group>"; };
+		158D3C5C1CA32C21008AB0C6 /* GiustoPush-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GiustoPush-Bridging-Header.h"; sourceTree = "<group>"; };
+		158D3C5D1CA32C22008AB0C6 /* GISplashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GISplashViewController.m; sourceTree = "<group>"; };
+		158D3C5F1CA32C68008AB0C6 /* GISignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GISignUpViewController.h; sourceTree = "<group>"; };
+		158D3C601CA32C99008AB0C6 /* GISignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GISignUpViewController.m; sourceTree = "<group>"; };
+		158D3C621CA32CD5008AB0C6 /* GILoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GILoginViewController.h; sourceTree = "<group>"; };
+		158D3C631CA32D10008AB0C6 /* GILoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GILoginViewController.m; sourceTree = "<group>"; };
+		158D3C651CA32D48008AB0C6 /* GIForgotPasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GIForgotPasswordViewController.h; sourceTree = "<group>"; };
+		158D3C661CA32D6F008AB0C6 /* GIForgotPasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GIForgotPasswordViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +46,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				154800A41CA2E80E00FB7E37 /* Crashlytics.framework in Frameworks */,
+				154800A31CA2E80E00FB7E37 /* Fabric.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +59,8 @@
 			children = (
 				1548008D1CA2E1D800FB7E37 /* GiustoPush */,
 				1548008C1CA2E1D800FB7E37 /* Products */,
+				154800A11CA2E80E00FB7E37 /* Fabric.framework */,
+				154800A21CA2E80E00FB7E37 /* Crashlytics.framework */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,7 +75,8 @@
 		1548008D1CA2E1D800FB7E37 /* GiustoPush */ = {
 			isa = PBXGroup;
 			children = (
-				1548008E1CA2E1D800FB7E37 /* AppDelegate.swift */,
+				158D3C581CA32918008AB0C6 /* Screens */,
+				158D3C571CA328FA008AB0C6 /* Delegates */,
 				154800901CA2E1D800FB7E37 /* ViewController.swift */,
 				154800921CA2E1D800FB7E37 /* Main.storyboard */,
 				154800951CA2E1D800FB7E37 /* Assets.xcassets */,
@@ -62,6 +84,38 @@
 				1548009A1CA2E1D800FB7E37 /* Info.plist */,
 			);
 			path = GiustoPush;
+			sourceTree = "<group>";
+		};
+		158D3C571CA328FA008AB0C6 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				1548008E1CA2E1D800FB7E37 /* AppDelegate.swift */,
+			);
+			name = Delegates;
+			sourceTree = "<group>";
+		};
+		158D3C581CA32918008AB0C6 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				158D3C5A1CA3298C008AB0C6 /* Login */,
+			);
+			name = Screens;
+			sourceTree = "<group>";
+		};
+		158D3C5A1CA3298C008AB0C6 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				158D3C5B1CA32BA2008AB0C6 /* GISplashViewController.h */,
+				158D3C5D1CA32C22008AB0C6 /* GISplashViewController.m */,
+				158D3C5F1CA32C68008AB0C6 /* GISignUpViewController.h */,
+				158D3C601CA32C99008AB0C6 /* GISignUpViewController.m */,
+				158D3C621CA32CD5008AB0C6 /* GILoginViewController.h */,
+				158D3C631CA32D10008AB0C6 /* GILoginViewController.m */,
+				158D3C651CA32D48008AB0C6 /* GIForgotPasswordViewController.h */,
+				158D3C661CA32D6F008AB0C6 /* GIForgotPasswordViewController.m */,
+				158D3C5C1CA32C21008AB0C6 /* GiustoPush-Bridging-Header.h */,
+			);
+			name = Login;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +128,7 @@
 				154800871CA2E1D800FB7E37 /* Sources */,
 				154800881CA2E1D800FB7E37 /* Frameworks */,
 				154800891CA2E1D800FB7E37 /* Resources */,
+				154800A01CA2E77400FB7E37 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -130,13 +185,33 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		154800A01CA2E77400FB7E37 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Fabric.framework/run 8bacd790ce176d4ac7d2db39e2c6128f1a6216f9 a906c1c6130435c89ea6f9fc516c02a1ee87dc44bb03b2be0217a5f3ae9efc8b";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		154800871CA2E1D800FB7E37 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				158D3C611CA32C99008AB0C6 /* GISignUpViewController.m in Sources */,
 				154800911CA2E1D800FB7E37 /* ViewController.swift in Sources */,
+				158D3C671CA32D6F008AB0C6 /* GIForgotPasswordViewController.m in Sources */,
+				158D3C5E1CA32C22008AB0C6 /* GISplashViewController.m in Sources */,
 				1548008F1CA2E1D800FB7E37 /* AppDelegate.swift in Sources */,
+				158D3C641CA32D10008AB0C6 /* GILoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,10 +324,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = GiustoPush/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = self.edu.GiustoPush;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GiustoPush/GiustoPush-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -260,10 +342,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = GiustoPush/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = self.edu.GiustoPush;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GiustoPush/GiustoPush-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -286,6 +374,7 @@
 				1548009F1CA2E1D800FB7E37 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
