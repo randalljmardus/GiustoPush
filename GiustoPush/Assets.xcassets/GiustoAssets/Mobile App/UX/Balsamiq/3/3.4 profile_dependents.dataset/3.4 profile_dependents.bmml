@@ -1,0 +1,141 @@
+<mockup version="1.0" skin="wireframe" fontFace="Balsamiq Sans" measuredW="867" measuredH="1276" mockupW="640" mockupH="1096">
+  <controls>
+    <control controlID="361" controlTypeID="com.balsamiq.mockups::Canvas" x="227" y="180" w="640" h="1096" measuredW="100" measuredH="70" zOrder="0" locked="false" isInGroup="-1"/>
+    <control controlID="362" controlTypeID="com.balsamiq.mockups::Canvas" x="227" y="180" w="640" h="88" measuredW="100" measuredH="70" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>7775663</color>
+      </controlProperties>
+    </control>
+    <control controlID="364" controlTypeID="com.balsamiq.mockups::Icon" x="243" y="208" w="-1" h="-1" measuredW="32" measuredH="32" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>16777215</color>
+        <icon>GtIcon%7Cmedium</icon>
+        <rotation>180</rotation>
+      </controlProperties>
+    </control>
+    <control controlID="404" controlTypeID="com.balsamiq.mockups::Paragraph" x="227" y="214" w="640" h="40" measuredW="200" measuredH="80" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>center</align>
+        <color>16777215</color>
+        <size>28</size>
+        <text>Dependents</text>
+      </controlProperties>
+    </control>
+    <control controlID="468" controlTypeID="com.balsamiq.mockups::Label" x="725" y="209" w="122" h="-1" measuredW="49" measuredH="31" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>right</align>
+        <color>16777215</color>
+        <size>24</size>
+        <text>New</text>
+      </controlProperties>
+    </control>
+    <control controlID="473" controlTypeID="__group__" x="247" y="288" w="290" h="190" measuredW="290" measuredH="190" zOrder="5" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::RoundButton" x="0" y="0" w="290" h="190" measuredW="32" measuredH="32" zOrder="0" locked="false" isInGroup="473">
+          <controlProperties>
+            <shape>rectangle</shape>
+            <text/>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::Icon" x="113" y="21" w="-1" h="-1" measuredW="64" measuredH="64" zOrder="1" locked="false" isInGroup="473">
+          <controlProperties>
+            <borderStyle>square</borderStyle>
+            <icon>UserIcon%7Cxlarge</icon>
+          </controlProperties>
+        </control>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::Label" x="35" y="103" w="220" h="-1" measuredW="220" measuredH="34" zOrder="2" locked="false" isInGroup="473">
+          <controlProperties>
+            <size>28</size>
+            <text>Dependent%20Name</text>
+          </controlProperties>
+        </control>
+        <control controlID="3" controlTypeID="com.balsamiq.mockups::Label" x="35" y="143" w="220" h="-1" measuredW="109" measuredH="27" zOrder="3" locked="false" isInGroup="473">
+          <controlProperties>
+            <align>center</align>
+            <color>10066329</color>
+            <size>20</size>
+            <text>92%20years%20old</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="477" controlTypeID="com.balsamiq.mockups::RoundButton" x="247" y="498" w="290" h="190" measuredW="32" measuredH="32" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <shape>rectangle</shape>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="478" controlTypeID="com.balsamiq.mockups::Icon" x="360" y="519" w="-1" h="-1" measuredW="64" measuredH="64" zOrder="11" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>square</borderStyle>
+        <icon>UserIcon%7Cxlarge</icon>
+      </controlProperties>
+    </control>
+    <control controlID="479" controlTypeID="com.balsamiq.mockups::Label" x="282" y="601" w="220" h="-1" measuredW="220" measuredH="34" zOrder="12" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>28</size>
+        <text>Dependent%20Name</text>
+      </controlProperties>
+    </control>
+    <control controlID="480" controlTypeID="com.balsamiq.mockups::Label" x="282" y="641" w="220" h="-1" measuredW="98" measuredH="27" zOrder="13" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>center</align>
+        <color>10066329</color>
+        <size>20</size>
+        <text>3%20years%20old</text>
+      </controlProperties>
+    </control>
+    <control controlID="481" controlTypeID="com.balsamiq.mockups::RoundButton" x="557" y="288" w="290" h="190" measuredW="32" measuredH="32" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <shape>rectangle</shape>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="482" controlTypeID="com.balsamiq.mockups::Icon" x="670" y="309" w="-1" h="-1" measuredW="64" measuredH="64" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>square</borderStyle>
+        <icon>UserIcon%7Cxlarge</icon>
+      </controlProperties>
+    </control>
+    <control controlID="483" controlTypeID="com.balsamiq.mockups::Label" x="592" y="391" w="220" h="-1" measuredW="220" measuredH="34" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>28</size>
+        <text>Dependent%20Name</text>
+      </controlProperties>
+    </control>
+    <control controlID="484" controlTypeID="com.balsamiq.mockups::Label" x="592" y="431" w="220" h="-1" measuredW="109" measuredH="27" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>center</align>
+        <color>10066329</color>
+        <size>20</size>
+        <text>28%20years%20old</text>
+      </controlProperties>
+    </control>
+    <control controlID="485" controlTypeID="com.balsamiq.mockups::RoundButton" x="557" y="498" w="290" h="190" measuredW="32" measuredH="32" zOrder="14" locked="false" isInGroup="-1">
+      <controlProperties>
+        <shape>rectangle</shape>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="486" controlTypeID="com.balsamiq.mockups::Icon" x="670" y="519" w="-1" h="-1" measuredW="64" measuredH="64" zOrder="15" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>square</borderStyle>
+        <icon>UserIcon%7Cxlarge</icon>
+      </controlProperties>
+    </control>
+    <control controlID="487" controlTypeID="com.balsamiq.mockups::Label" x="592" y="601" w="220" h="-1" measuredW="220" measuredH="34" zOrder="16" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>28</size>
+        <text>Dependent%20Name</text>
+      </controlProperties>
+    </control>
+    <control controlID="488" controlTypeID="com.balsamiq.mockups::Label" x="592" y="641" w="220" h="-1" measuredW="115" measuredH="27" zOrder="17" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>center</align>
+        <color>10066329</color>
+        <size>20</size>
+        <text>5%20months%20old</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

@@ -1,0 +1,205 @@
+<mockup version="1.0" skin="wireframe" fontFace="Balsamiq Sans" measuredW="724" measuredH="1132" mockupW="640" mockupH="1096">
+  <controls>
+    <control controlID="559" controlTypeID="com.balsamiq.mockups::Canvas" x="84" y="36" w="640" h="1096" measuredW="100" measuredH="70" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>15658734</color>
+      </controlProperties>
+    </control>
+    <control controlID="560" controlTypeID="com.balsamiq.mockups::Canvas" x="84" y="36" w="640" h="88" measuredW="100" measuredH="70" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>7775663</color>
+      </controlProperties>
+    </control>
+    <control controlID="565" controlTypeID="com.balsamiq.mockups::Paragraph" x="84" y="68" w="640" h="40" measuredW="200" measuredH="80" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>center</align>
+        <color>16777215</color>
+        <size>28</size>
+        <text>Profile%20Settings</text>
+      </controlProperties>
+    </control>
+    <control controlID="568" controlTypeID="com.balsamiq.mockups::Icon" x="100" y="64" w="-1" h="-1" measuredW="32" measuredH="32" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>16777215</color>
+        <icon>GtIcon%7Cmedium</icon>
+        <rotation>180</rotation>
+      </controlProperties>
+    </control>
+    <control controlID="635" controlTypeID="com.balsamiq.mockups::Label" x="324" y="328" w="161" h="-1" measuredW="161" measuredH="34" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>16777215</color>
+        <size>28</size>
+        <text>Murray%20Clark</text>
+      </controlProperties>
+    </control>
+    <control controlID="636" controlTypeID="com.balsamiq.mockups::RoundButton" x="85" y="319" w="638" h="72" measuredW="32" measuredH="32" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderColor>14540253</borderColor>
+        <shape>rectangle</shape>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="637" controlTypeID="com.balsamiq.mockups::Label" x="106" y="336" w="189" h="-1" measuredW="75" measuredH="34" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>6710886</color>
+        <size>28</size>
+        <text>Name</text>
+      </controlProperties>
+    </control>
+    <control controlID="638" controlTypeID="com.balsamiq.mockups::RoundButton" x="85" y="390" w="638" h="72" measuredW="32" measuredH="32" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderColor>14540253</borderColor>
+        <shape>rectangle</shape>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="639" controlTypeID="com.balsamiq.mockups::Label" x="106" y="407" w="201" h="-1" measuredW="71" measuredH="34" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>6710886</color>
+        <size>28</size>
+        <text>Email</text>
+      </controlProperties>
+    </control>
+    <control controlID="640" controlTypeID="com.balsamiq.mockups::RoundButton" x="85" y="461" w="638" h="72" measuredW="32" measuredH="32" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderColor>14540253</borderColor>
+        <shape>rectangle</shape>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="641" controlTypeID="com.balsamiq.mockups::Label" x="106" y="478" w="248" h="-1" measuredW="106" measuredH="34" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>6710886</color>
+        <size>28</size>
+        <text>Location</text>
+      </controlProperties>
+    </control>
+    <control controlID="645" controlTypeID="com.balsamiq.mockups::Label" x="324" y="590" w="161" h="-1" measuredW="161" measuredH="34" zOrder="11" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>16777215</color>
+        <size>28</size>
+        <text>Murray%20Clark</text>
+      </controlProperties>
+    </control>
+    <control controlID="646" controlTypeID="com.balsamiq.mockups::RoundButton" x="85" y="581" w="638" h="214" measuredW="32" measuredH="32" zOrder="12" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderColor>14540253</borderColor>
+        <shape>rectangle</shape>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="647" controlTypeID="com.balsamiq.mockups::Label" x="106" y="598" w="189" h="-1" measuredW="41" measuredH="34" zOrder="13" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>6710886</color>
+        <size>28</size>
+        <text>Bio</text>
+      </controlProperties>
+    </control>
+    <control controlID="648" controlTypeID="com.balsamiq.mockups::RoundButton" x="85" y="835" w="638" h="72" measuredW="32" measuredH="32" zOrder="14" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderColor>14540253</borderColor>
+        <shape>rectangle</shape>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="649" controlTypeID="com.balsamiq.mockups::Label" x="106" y="852" w="248" h="-1" measuredW="229" measuredH="34" zOrder="15" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>6710886</color>
+        <size>28</size>
+        <text>Change%20Password</text>
+      </controlProperties>
+    </control>
+    <control controlID="650" controlTypeID="com.balsamiq.mockups::RoundButton" x="85" y="905" w="638" h="72" measuredW="32" measuredH="32" zOrder="16" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderColor>14540253</borderColor>
+        <shape>rectangle</shape>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="651" controlTypeID="com.balsamiq.mockups::Label" x="106" y="922" w="248" h="-1" measuredW="189" measuredH="34" zOrder="17" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>6710886</color>
+        <size>28</size>
+        <text>Delete%20Account</text>
+      </controlProperties>
+    </control>
+    <control controlID="652" controlTypeID="com.balsamiq.mockups::Icon" x="682" y="859" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="18" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>13421772</color>
+        <icon>GtIcon%7Csmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="653" controlTypeID="com.balsamiq.mockups::Icon" x="682" y="929" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="19" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>13421772</color>
+        <icon>GtIcon%7Csmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="654" controlTypeID="com.balsamiq.mockups::RoundButton" x="354" y="171" w="100" h="100" measuredW="32" measuredH="32" zOrder="20" locked="false" isInGroup="-1">
+      <controlProperties>
+        <shape>roundRect</shape>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="655" controlTypeID="com.balsamiq.mockups::Icon" x="372" y="189" w="-1" h="-1" measuredW="64" measuredH="64" zOrder="21" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>square</borderStyle>
+        <color>10066329</color>
+        <icon>UserIcon%7Cxlarge</icon>
+      </controlProperties>
+    </control>
+    <control controlID="656" controlTypeID="com.balsamiq.mockups::Label" x="581" y="65" w="122" h="-1" measuredW="55" measuredH="31" zOrder="22" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>right</align>
+        <color>16777215</color>
+        <size>24</size>
+        <text>Save</text>
+      </controlProperties>
+    </control>
+    <control controlID="657" controlTypeID="com.balsamiq.mockups::Canvas" x="84" y="36" w="640" h="1096" measuredW="100" measuredH="70" zOrder="23" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0.5</backgroundAlpha>
+        <borderColor>0</borderColor>
+        <color>0</color>
+      </controlProperties>
+    </control>
+    <control controlID="658" controlTypeID="com.balsamiq.mockups::Canvas" x="105" y="1040" w="600" h="72" measuredW="100" measuredH="70" zOrder="24" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>1</backgroundAlpha>
+        <borderColor>0</borderColor>
+        <borderStyle>roundedSolid</borderStyle>
+        <color>16777215</color>
+      </controlProperties>
+    </control>
+    <control controlID="659" controlTypeID="com.balsamiq.mockups::Label" x="361" y="1059" w="-1" h="-1" measuredW="88" measuredH="34" zOrder="25" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>28</size>
+        <text>Cancel</text>
+      </controlProperties>
+    </control>
+    <control controlID="661" controlTypeID="com.balsamiq.mockups::Label" x="236" y="967" w="-1" h="-1" measuredW="338" measuredH="34" zOrder="27" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>13576743</color>
+        <size>28</size>
+        <text>Delete%20your%20Giusto%20account</text>
+      </controlProperties>
+    </control>
+    <control controlID="662" controlTypeID="com.balsamiq.mockups::Canvas" x="105" y="815" w="600" h="205" measuredW="100" measuredH="70" zOrder="26" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>1</backgroundAlpha>
+        <borderColor>0</borderColor>
+        <borderStyle>roundedSolid</borderStyle>
+        <color>16777215</color>
+      </controlProperties>
+    </control>
+    <control controlID="663" controlTypeID="com.balsamiq.mockups::HRule" x="106" y="942" w="598" h="-1" measuredW="100" measuredH="10" zOrder="28" locked="false" isInGroup="-1"/>
+    <control controlID="664" controlTypeID="com.balsamiq.mockups::Paragraph" x="126" y="840" w="560" h="88" measuredW="200" measuredH="80" zOrder="29" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>center</align>
+        <color>6710886</color>
+        <size>24</size>
+        <text>Are%20you%20sure%20you%20want%20to%20delete%20your%20Giusto%20account%3F%20Your%20profile%20and%20dependents%20profiles%20will%20no%20longer%20exist.%20*This%20cannot%20be%20undone*</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

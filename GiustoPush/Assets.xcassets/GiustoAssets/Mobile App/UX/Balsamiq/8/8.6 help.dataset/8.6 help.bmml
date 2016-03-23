@@ -1,0 +1,197 @@
+<mockup version="1.0" skin="wireframe" fontFace="Balsamiq Sans" measuredW="724" measuredH="1132" mockupW="640" mockupH="1096">
+  <controls>
+    <control controlID="559" controlTypeID="com.balsamiq.mockups::Canvas" x="84" y="36" w="640" h="1096" measuredW="100" measuredH="70" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>15658734</color>
+      </controlProperties>
+    </control>
+    <control controlID="634" controlTypeID="com.balsamiq.mockups::Canvas" x="84" y="36" w="640" h="88" measuredW="100" measuredH="70" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>7775663</color>
+      </controlProperties>
+    </control>
+    <control controlID="635" controlTypeID="com.balsamiq.mockups::Paragraph" x="84" y="68" w="640" h="40" measuredW="200" measuredH="80" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>center</align>
+        <color>16777215</color>
+        <size>28</size>
+        <text>Help</text>
+      </controlProperties>
+    </control>
+    <control controlID="636" controlTypeID="com.balsamiq.mockups::Icon" x="100" y="64" w="-1" h="-1" measuredW="32" measuredH="32" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>16777215</color>
+        <icon>GtIcon%7Cmedium</icon>
+        <rotation>180</rotation>
+      </controlProperties>
+    </control>
+    <control controlID="638" controlTypeID="com.balsamiq.mockups::Label" x="581" y="65" w="122" h="-1" measuredW="83" measuredH="31" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <align>right</align>
+        <color>16777215</color>
+        <size>24</size>
+        <text>Contact</text>
+      </controlProperties>
+    </control>
+    <control controlID="639" controlTypeID="com.balsamiq.mockups::RoundButton" x="85" y="163" w="638" h="72" measuredW="32" measuredH="32" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderColor>14540253</borderColor>
+        <shape>rectangle</shape>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="640" controlTypeID="com.balsamiq.mockups::Label" x="106" y="184" w="-1" h="-1" measuredW="317" measuredH="31" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>7775663</color>
+        <size>24</size>
+        <text>How%20do%20I%20reset%20my%20password%3F</text>
+      </controlProperties>
+    </control>
+    <control controlID="641" controlTypeID="com.balsamiq.mockups::Icon" x="687" y="191" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>13421772</color>
+        <icon>GtIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="642" controlTypeID="com.balsamiq.mockups::RoundButton" x="85" y="233" w="638" h="72" measuredW="32" measuredH="32" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderColor>14540253</borderColor>
+        <shape>rectangle</shape>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="643" controlTypeID="com.balsamiq.mockups::Label" x="106" y="254" w="-1" h="-1" measuredW="265" measuredH="31" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>7775663</color>
+        <size>24</size>
+        <text>How%20do%20I%20edit%20my%20profile%3F</text>
+      </controlProperties>
+    </control>
+    <control controlID="644" controlTypeID="com.balsamiq.mockups::Icon" x="687" y="261" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>13421772</color>
+        <icon>GtIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="663" controlTypeID="com.balsamiq.mockups::RoundButton" x="85" y="303" w="638" h="72" measuredW="32" measuredH="32" zOrder="11" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderColor>14540253</borderColor>
+        <shape>rectangle</shape>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="664" controlTypeID="com.balsamiq.mockups::Label" x="106" y="324" w="-1" h="-1" measuredW="235" measuredH="31" zOrder="12" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>7775663</color>
+        <size>24</size>
+        <text>How%20to%20I%20add%20a%20friend%3F</text>
+      </controlProperties>
+    </control>
+    <control controlID="665" controlTypeID="com.balsamiq.mockups::Icon" x="687" y="331" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="13" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>13421772</color>
+        <icon>GtIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="666" controlTypeID="com.balsamiq.mockups::RoundButton" x="85" y="373" w="638" h="72" measuredW="32" measuredH="32" zOrder="14" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderColor>14540253</borderColor>
+        <shape>rectangle</shape>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="667" controlTypeID="com.balsamiq.mockups::Label" x="106" y="394" w="-1" h="-1" measuredW="378" measuredH="31" zOrder="15" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>7775663</color>
+        <size>24</size>
+        <text>How%20do%20I%20add%20an%20item%20to%20my%20profile%3F</text>
+      </controlProperties>
+    </control>
+    <control controlID="668" controlTypeID="com.balsamiq.mockups::Icon" x="687" y="401" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="16" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>13421772</color>
+        <icon>GtIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="669" controlTypeID="com.balsamiq.mockups::RoundButton" x="85" y="443" w="638" h="72" measuredW="32" measuredH="32" zOrder="17" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderColor>14540253</borderColor>
+        <shape>rectangle</shape>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="670" controlTypeID="com.balsamiq.mockups::Label" x="106" y="464" w="-1" h="-1" measuredW="317" measuredH="31" zOrder="18" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>7775663</color>
+        <size>24</size>
+        <text>How%20do%20I%20reset%20my%20password%3F</text>
+      </controlProperties>
+    </control>
+    <control controlID="671" controlTypeID="com.balsamiq.mockups::Icon" x="687" y="471" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="19" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>13421772</color>
+        <icon>GtIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="672" controlTypeID="com.balsamiq.mockups::RoundButton" x="85" y="513" w="638" h="72" measuredW="32" measuredH="32" zOrder="20" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderColor>14540253</borderColor>
+        <shape>rectangle</shape>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="673" controlTypeID="com.balsamiq.mockups::Label" x="106" y="534" w="-1" h="-1" measuredW="265" measuredH="31" zOrder="21" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>7775663</color>
+        <size>24</size>
+        <text>How%20do%20I%20edit%20my%20profile%3F</text>
+      </controlProperties>
+    </control>
+    <control controlID="674" controlTypeID="com.balsamiq.mockups::Icon" x="687" y="541" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="22" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>13421772</color>
+        <icon>GtIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="675" controlTypeID="com.balsamiq.mockups::RoundButton" x="85" y="583" w="638" h="72" measuredW="32" measuredH="32" zOrder="23" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderColor>14540253</borderColor>
+        <shape>rectangle</shape>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="676" controlTypeID="com.balsamiq.mockups::Label" x="106" y="604" w="-1" h="-1" measuredW="235" measuredH="31" zOrder="24" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>7775663</color>
+        <size>24</size>
+        <text>How%20to%20I%20add%20a%20friend%3F</text>
+      </controlProperties>
+    </control>
+    <control controlID="677" controlTypeID="com.balsamiq.mockups::Icon" x="687" y="611" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="25" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>13421772</color>
+        <icon>GtIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="678" controlTypeID="com.balsamiq.mockups::RoundButton" x="85" y="653" w="638" h="72" measuredW="32" measuredH="32" zOrder="26" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderColor>14540253</borderColor>
+        <shape>rectangle</shape>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="679" controlTypeID="com.balsamiq.mockups::Label" x="106" y="674" w="-1" h="-1" measuredW="378" measuredH="31" zOrder="27" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>7775663</color>
+        <size>24</size>
+        <text>How%20do%20I%20add%20an%20item%20to%20my%20profile%3F</text>
+      </controlProperties>
+    </control>
+    <control controlID="680" controlTypeID="com.balsamiq.mockups::Icon" x="687" y="681" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="28" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>13421772</color>
+        <icon>GtIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>
