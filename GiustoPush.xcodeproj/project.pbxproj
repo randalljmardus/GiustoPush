@@ -18,6 +18,7 @@
 		158D3C611CA32C99008AB0C6 /* GISignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 158D3C601CA32C99008AB0C6 /* GISignUpViewController.m */; };
 		158D3C641CA32D10008AB0C6 /* GILoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 158D3C631CA32D10008AB0C6 /* GILoginViewController.m */; };
 		158D3C671CA32D6F008AB0C6 /* GIForgotPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 158D3C661CA32D6F008AB0C6 /* GIForgotPasswordViewController.m */; };
+		158D3C691CA43C7C008AB0C6 /* Launch_Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 158D3C681CA43C7C008AB0C6 /* Launch_Screen.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		158D3C631CA32D10008AB0C6 /* GILoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GILoginViewController.m; sourceTree = "<group>"; };
 		158D3C651CA32D48008AB0C6 /* GIForgotPasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GIForgotPasswordViewController.h; sourceTree = "<group>"; };
 		158D3C661CA32D6F008AB0C6 /* GIForgotPasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GIForgotPasswordViewController.m; sourceTree = "<group>"; };
+		158D3C681CA43C7C008AB0C6 /* Launch_Screen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Launch_Screen.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +82,6 @@
 				154800901CA2E1D800FB7E37 /* ViewController.swift */,
 				154800921CA2E1D800FB7E37 /* Main.storyboard */,
 				154800951CA2E1D800FB7E37 /* Assets.xcassets */,
-				154800971CA2E1D800FB7E37 /* LaunchScreen.storyboard */,
 				1548009A1CA2E1D800FB7E37 /* Info.plist */,
 			);
 			path = GiustoPush;
@@ -114,6 +115,8 @@
 				158D3C651CA32D48008AB0C6 /* GIForgotPasswordViewController.h */,
 				158D3C661CA32D6F008AB0C6 /* GIForgotPasswordViewController.m */,
 				158D3C5C1CA32C21008AB0C6 /* GiustoPush-Bridging-Header.h */,
+				154800971CA2E1D800FB7E37 /* LaunchScreen.storyboard */,
+				158D3C681CA43C7C008AB0C6 /* Launch_Screen.xib */,
 			);
 			name = Login;
 			sourceTree = "<group>";
@@ -177,6 +180,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				158D3C691CA43C7C008AB0C6 /* Launch_Screen.xib in Resources */,
 				154800991CA2E1D800FB7E37 /* LaunchScreen.storyboard in Resources */,
 				154800961CA2E1D800FB7E37 /* Assets.xcassets in Resources */,
 				154800941CA2E1D800FB7E37 /* Main.storyboard in Resources */,
