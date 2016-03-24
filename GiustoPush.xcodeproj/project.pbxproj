@@ -11,7 +11,6 @@
 		154800911CA2E1D800FB7E37 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154800901CA2E1D800FB7E37 /* ViewController.swift */; };
 		154800941CA2E1D800FB7E37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 154800921CA2E1D800FB7E37 /* Main.storyboard */; };
 		154800961CA2E1D800FB7E37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 154800951CA2E1D800FB7E37 /* Assets.xcassets */; };
-		154800991CA2E1D800FB7E37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 154800971CA2E1D800FB7E37 /* LaunchScreen.storyboard */; };
 		154800A31CA2E80E00FB7E37 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 154800A11CA2E80E00FB7E37 /* Fabric.framework */; };
 		154800A41CA2E80E00FB7E37 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 154800A21CA2E80E00FB7E37 /* Crashlytics.framework */; };
 		158D3C5E1CA32C22008AB0C6 /* GISplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 158D3C5D1CA32C22008AB0C6 /* GISplashViewController.m */; };
@@ -27,7 +26,6 @@
 		154800901CA2E1D800FB7E37 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		154800931CA2E1D800FB7E37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		154800951CA2E1D800FB7E37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		154800981CA2E1D800FB7E37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1548009A1CA2E1D800FB7E37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		154800A11CA2E80E00FB7E37 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
 		154800A21CA2E80E00FB7E37 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
@@ -80,7 +78,6 @@
 				158D3C581CA32918008AB0C6 /* Screens */,
 				158D3C571CA328FA008AB0C6 /* Delegates */,
 				154800901CA2E1D800FB7E37 /* ViewController.swift */,
-				154800921CA2E1D800FB7E37 /* Main.storyboard */,
 				154800951CA2E1D800FB7E37 /* Assets.xcassets */,
 				1548009A1CA2E1D800FB7E37 /* Info.plist */,
 			);
@@ -115,7 +112,7 @@
 				158D3C651CA32D48008AB0C6 /* GIForgotPasswordViewController.h */,
 				158D3C661CA32D6F008AB0C6 /* GIForgotPasswordViewController.m */,
 				158D3C5C1CA32C21008AB0C6 /* GiustoPush-Bridging-Header.h */,
-				154800971CA2E1D800FB7E37 /* LaunchScreen.storyboard */,
+				154800921CA2E1D800FB7E37 /* Main.storyboard */,
 				158D3C681CA43C7C008AB0C6 /* Launch_Screen.xib */,
 			);
 			name = Login;
@@ -181,7 +178,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				158D3C691CA43C7C008AB0C6 /* Launch_Screen.xib in Resources */,
-				154800991CA2E1D800FB7E37 /* LaunchScreen.storyboard in Resources */,
 				154800961CA2E1D800FB7E37 /* Assets.xcassets in Resources */,
 				154800941CA2E1D800FB7E37 /* Main.storyboard in Resources */,
 			);
@@ -228,14 +224,6 @@
 				154800931CA2E1D800FB7E37 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		154800971CA2E1D800FB7E37 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				154800981CA2E1D800FB7E37 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
