@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--Splash View Controller-->
@@ -17,11 +18,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Yan-AF-wpO" userLabel="Background">
-                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="profileBackground" translatesAutoresizingMaskIntoConstraints="NO" id="Yan-AF-wpO" userLabel="Background">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.4445393789" blue="0.20009892909999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="Yan-AF-wpO" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="2Ph-Ak-UgY"/>
+                            <constraint firstItem="Yan-AF-wpO" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="5nU-m8-kiG"/>
+                            <constraint firstItem="Yan-AF-wpO" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="b7x-84-JEh"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Yan-AF-wpO" secondAttribute="trailing" id="yNe-5z-KVX"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -29,4 +36,7 @@
             <point key="canvasLocation" x="74.133333333333326" y="290.15333333333331"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="profileBackground" width="320" height="218"/>
+    </resources>
 </document>
