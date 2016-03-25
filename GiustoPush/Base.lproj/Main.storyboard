@@ -71,8 +71,8 @@
                             <constraint firstItem="Yan-AF-wpO" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="5nU-m8-kiG"/>
                             <constraint firstItem="an3-lF-e4y" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Amf-zQ-4fG"/>
                             <constraint firstAttribute="trailingMargin" secondItem="an3-lF-e4y" secondAttribute="trailing" id="Umy-Qo-TEl"/>
+                            <constraint firstItem="nbh-Vr-qOb" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="XYo-m1-U9N"/>
                             <constraint firstItem="Yan-AF-wpO" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="b7x-84-JEh"/>
-                            <constraint firstItem="mXs-yi-pLg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="idg-4d-pr2"/>
                             <constraint firstItem="an3-lF-e4y" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="qOp-FL-gHS"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Yan-AF-wpO" secondAttribute="trailing" id="yNe-5z-KVX"/>
                         </constraints>
@@ -83,6 +83,60 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="74.133333333333326" y="290.15333333333331"/>
+        </scene>
+        <!--Login View Controller-->
+        <scene sceneID="Ubp-o7-Woh">
+            <objects>
+                <viewController id="aTa-Ka-Mcm" userLabel="Login View Controller" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="9IN-We-RRz"/>
+                        <viewControllerLayoutGuide type="bottom" id="vmq-hJ-SLP"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="lEb-Aq-2CD">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7HV-7v-QQ4" userLabel="Keyboard Avoiding Scroll View" customClass="TPKeyboardAvoidingScrollView">
+                                <rect key="frame" x="0.0" y="147" width="320" height="504"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ie5-aF-bMZ" userLabel="Content View">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="504"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TtU-dJ-FeY" userLabel="Sign in to your Giusto account">
+                                                <rect key="frame" x="139" y="64" width="42" height="21"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    </view>
+                                </subviews>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ODN-Ft-054" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="442" y="293"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="pqa-Aa-WSk">
+            <objects>
+                <viewController id="eC3-GU-xd5" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="U2M-ef-ROU"/>
+                        <viewControllerLayoutGuide type="bottom" id="lZX-sp-fvF"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="1LN-oJ-HBV">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dz3-3H-NBR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
         </scene>
     </scenes>
     <resources>
