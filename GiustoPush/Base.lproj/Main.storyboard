@@ -30,9 +30,31 @@
                             </imageView>
                             <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="an3-lF-e4y" userLabel="Button Container">
                                 <rect key="frame" x="0.0" y="428" width="320" height="140"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MoL-KN-WJu" userLabel="Login">
+                                        <rect key="frame" x="20" y="17" width="280" height="46"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                        <state key="normal" title="Login" backgroundImage="loginButton">
+                                            <color key="titleShadowColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mXs-yi-pLg" userLabel="Sign Up">
+                                        <rect key="frame" x="20" y="74" width="280" height="46"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="280" id="LDZ-lW-yWm"/>
+                                            <constraint firstAttribute="height" constant="46" id="XvI-My-A1P"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                        <state key="normal" title="Sign Up" backgroundImage="signupButton">
+                                            <color key="titleColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </state>
+                                    </button>
+                                </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="140" id="5kE-xa-uBA"/>
+                                    <constraint firstItem="mXs-yi-pLg" firstAttribute="top" secondItem="MoL-KN-WJu" secondAttribute="bottom" constant="11" id="aaW-m7-EVA"/>
                                     <constraint firstAttribute="width" constant="320" id="jCG-Ma-e6N"/>
                                 </constraints>
                             </view>
@@ -44,11 +66,14 @@
                             <constraint firstAttribute="trailingMargin" secondItem="an3-lF-e4y" secondAttribute="trailing" id="AFe-8E-mIs"/>
                             <constraint firstItem="an3-lF-e4y" firstAttribute="centerX" secondItem="nbh-Vr-qOb" secondAttribute="centerX" id="PDU-5e-ETG"/>
                             <constraint firstItem="Yan-AF-wpO" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="b7x-84-JEh"/>
+                            <constraint firstItem="mXs-yi-pLg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="idg-4d-pr2"/>
                             <constraint firstItem="an3-lF-e4y" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="qOp-FL-gHS"/>
                             <constraint firstItem="an3-lF-e4y" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="xeN-jZ-iV8"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Yan-AF-wpO" secondAttribute="trailing" id="yNe-5z-KVX"/>
                         </constraints>
                     </view>
+                    <toolbarItems/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -57,6 +82,8 @@
     </scenes>
     <resources>
         <image name="Giusto_Final Files_logo" width="601" height="201"/>
+        <image name="loginButton" width="280" height="46"/>
         <image name="profileBackground" width="320" height="218"/>
+        <image name="signupButton" width="280" height="46"/>
     </resources>
 </document>
