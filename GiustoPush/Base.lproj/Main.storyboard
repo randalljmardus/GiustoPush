@@ -31,14 +31,18 @@
                             <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="an3-lF-e4y" userLabel="Button Container">
                                 <rect key="frame" x="0.0" y="428" width="320" height="140"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MoL-KN-WJu" userLabel="Login">
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MoL-KN-WJu" userLabel="Login">
                                         <rect key="frame" x="20" y="17" width="280" height="46"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="46" id="d4O-rg-0uI"/>
+                                            <constraint firstAttribute="width" constant="280" id="e45-6f-ral"/>
+                                        </constraints>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
                                         <state key="normal" title="Login" backgroundImage="loginButton">
                                             <color key="titleShadowColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mXs-yi-pLg" userLabel="Sign Up">
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mXs-yi-pLg" userLabel="Sign Up">
                                         <rect key="frame" x="20" y="74" width="280" height="46"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="280" id="LDZ-lW-yWm"/>
@@ -53,9 +57,11 @@
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
+                                    <constraint firstItem="MoL-KN-WJu" firstAttribute="top" secondItem="an3-lF-e4y" secondAttribute="top" constant="17" id="1ZJ-Xh-sFo"/>
                                     <constraint firstAttribute="height" constant="140" id="5kE-xa-uBA"/>
+                                    <constraint firstItem="mXs-yi-pLg" firstAttribute="centerX" secondItem="an3-lF-e4y" secondAttribute="centerX" id="7Ev-nG-cOs"/>
                                     <constraint firstItem="mXs-yi-pLg" firstAttribute="top" secondItem="MoL-KN-WJu" secondAttribute="bottom" constant="11" id="aaW-m7-EVA"/>
-                                    <constraint firstAttribute="width" constant="320" id="jCG-Ma-e6N"/>
+                                    <constraint firstItem="MoL-KN-WJu" firstAttribute="centerX" secondItem="an3-lF-e4y" secondAttribute="centerX" id="mFm-07-9IU"/>
                                 </constraints>
                             </view>
                         </subviews>
@@ -63,12 +69,11 @@
                         <constraints>
                             <constraint firstItem="Yan-AF-wpO" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="2Ph-Ak-UgY"/>
                             <constraint firstItem="Yan-AF-wpO" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="5nU-m8-kiG"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="an3-lF-e4y" secondAttribute="trailing" id="AFe-8E-mIs"/>
-                            <constraint firstItem="an3-lF-e4y" firstAttribute="centerX" secondItem="nbh-Vr-qOb" secondAttribute="centerX" id="PDU-5e-ETG"/>
+                            <constraint firstItem="an3-lF-e4y" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Amf-zQ-4fG"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="an3-lF-e4y" secondAttribute="trailing" id="Umy-Qo-TEl"/>
                             <constraint firstItem="Yan-AF-wpO" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="b7x-84-JEh"/>
                             <constraint firstItem="mXs-yi-pLg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="idg-4d-pr2"/>
                             <constraint firstItem="an3-lF-e4y" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="qOp-FL-gHS"/>
-                            <constraint firstItem="an3-lF-e4y" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="xeN-jZ-iV8"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Yan-AF-wpO" secondAttribute="trailing" id="yNe-5z-KVX"/>
                         </constraints>
                     </view>
