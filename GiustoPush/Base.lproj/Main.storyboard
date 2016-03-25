@@ -21,12 +21,31 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="profileBackground" translatesAutoresizingMaskIntoConstraints="NO" id="Yan-AF-wpO" userLabel="Background">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                             </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="Giusto_Final Files_logo" translatesAutoresizingMaskIntoConstraints="NO" id="nbh-Vr-qOb" userLabel="Logo">
+                                <rect key="frame" x="85" y="190" width="150" height="48"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="OHk-Xt-v5x"/>
+                                    <constraint firstAttribute="height" constant="48" id="xDC-Mi-c7I"/>
+                                </constraints>
+                            </imageView>
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="an3-lF-e4y" userLabel="Button Container">
+                                <rect key="frame" x="0.0" y="428" width="320" height="140"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="140" id="5kE-xa-uBA"/>
+                                    <constraint firstAttribute="width" constant="320" id="jCG-Ma-e6N"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.4445393789" blue="0.20009892909999999" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="Yan-AF-wpO" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="2Ph-Ak-UgY"/>
                             <constraint firstItem="Yan-AF-wpO" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="5nU-m8-kiG"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="an3-lF-e4y" secondAttribute="trailing" id="AFe-8E-mIs"/>
+                            <constraint firstItem="an3-lF-e4y" firstAttribute="centerX" secondItem="nbh-Vr-qOb" secondAttribute="centerX" id="PDU-5e-ETG"/>
                             <constraint firstItem="Yan-AF-wpO" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="b7x-84-JEh"/>
+                            <constraint firstItem="an3-lF-e4y" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="qOp-FL-gHS"/>
+                            <constraint firstItem="an3-lF-e4y" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="xeN-jZ-iV8"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Yan-AF-wpO" secondAttribute="trailing" id="yNe-5z-KVX"/>
                         </constraints>
                     </view>
@@ -37,6 +56,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Giusto_Final Files_logo" width="601" height="201"/>
         <image name="profileBackground" width="320" height="218"/>
     </resources>
 </document>
