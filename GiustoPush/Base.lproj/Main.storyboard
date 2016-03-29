@@ -176,12 +176,98 @@
                         <viewControllerLayoutGuide type="top" id="0wT-uj-Aaz"/>
                         <viewControllerLayoutGuide type="bottom" id="5xR-80-XTk"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="cmS-ql-mYy">
+                    <view key="view" contentMode="scaleToFill" id="cmS-ql-mYy" userLabel="Keyboard Avoid Scroll View" customClass="TPKeyboardAvoidingScrollView">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WPA-5D-eBZ" userLabel="Avatar Button View">
+                                <rect key="frame" x="125" y="38" width="70" height="70"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="signupAvatarButton" translatesAutoresizingMaskIntoConstraints="NO" id="P4Y-TA-QfQ" userLabel="AvatarImage">
+                                        <rect key="frame" x="1" y="1" width="68" height="68"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="avatarPhotoFrame" translatesAutoresizingMaskIntoConstraints="NO" id="WUI-d6-bcZ" userLabel="AvatarImageFrame">
+                                        <rect key="frame" x="0.0" y="0.0" width="70" height="70"/>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d2G-g5-8xT" userLabel="Button - AddPhoto">
+                                        <rect key="frame" x="97" y="49" width="46" height="30"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                        <state key="normal">
+                                            <color key="titleShadowColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dvE-Y0-qdJ" userLabel="Sign Up Form Container">
+                                <rect key="frame" x="0.0" y="146" width="320" height="140"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hhy-Fo-i7W" userLabel="Name Field Container">
+                                        <rect key="frame" x="0.0" y="2" width="320" height="44"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="jSk-LI-4qQ" userLabel="Name Label">
+                                                <rect key="frame" x="10" y="13" width="72" height="17"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                                <color key="textColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="First Last" minimumFontSize="14" translatesAutoresizingMaskIntoConstraints="NO" id="4v4-9A-EvX" userLabel="Name TextField">
+                                                <rect key="frame" x="90" y="11" width="223" height="22"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="words" autocorrectionType="no" keyboardAppearance="light" returnKeyType="next"/>
+                                            </textField>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1Ze-ou-QdQ" userLabel="Email Field Container">
+                                        <rect key="frame" x="0.0" y="48" width="320" height="44"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Email" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="auc-DU-s1j" userLabel="Email Label">
+                                                <rect key="frame" x="10" y="13" width="72" height="17"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                                <color key="textColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <textField opaque="NO" clipsSubviews="YES" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="name@example.com" minimumFontSize="14" translatesAutoresizingMaskIntoConstraints="NO" id="i6a-ej-854" userLabel="Email TextField">
+                                                <rect key="frame" x="90" y="11" width="223" height="22"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardType="emailAddress" keyboardAppearance="light" returnKeyType="next"/>
+                                            </textField>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2jP-ZK-edE" userLabel="Password Button Container">
+                                <rect key="frame" x="0.0" y="304" width="320" height="48"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yqy-ZT-BTn" userLabel="Password Field Container" customClass="UIButton">
+                                        <rect key="frame" x="0.0" y="2" width="320" height="44"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="arrow" translatesAutoresizingMaskIntoConstraints="NO" id="Kao-G0-JB9" userLabel="Arrow">
+                                                <rect key="frame" x="304" y="16" width="8" height="12"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Change Password" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="H2y-6T-ZH3" userLabel="Password Label">
+                                                <rect key="frame" x="8" y="11" width="288" height="21"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                <color key="textColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <extendedEdge key="edgesForExtendedLayout"/>
+                    <navigationItem key="navigationItem" title="Profile" id="KzR-Wi-3ij" userLabel="Profile">
+                        <barButtonItem key="rightBarButtonItem" title="Save" id="klv-ac-oOG" userLabel="Save"/>
+                    </navigationItem>
                     <value key="contentSizeForViewInPopover" type="size" width="320" height="504"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="b6k-yv-3Am" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -447,9 +533,27 @@
             </objects>
             <point key="canvasLocation" x="444" y="280"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="xrb-JO-tVc">
+            <objects>
+                <viewController id="Ps2-gM-8qk" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="BJk-8D-U6v"/>
+                        <viewControllerLayoutGuide type="bottom" id="Xy8-E8-M20"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="dOe-Xw-HyO">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1H0-Gp-bfp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
     </scenes>
     <resources>
         <image name="Giusto_Final Files_logo" width="601" height="201"/>
+        <image name="arrow" width="8" height="12"/>
         <image name="avatarPhotoFrame" width="70" height="70"/>
         <image name="check" width="20" height="14"/>
         <image name="login-button-small" width="151" height="43"/>
