@@ -303,10 +303,10 @@
             </objects>
             <point key="canvasLocation" x="1304" y="-671"/>
         </scene>
-        <!--Legal Policy-->
+        <!--About Giusto-->
         <scene sceneID="YlY-w5-W4F">
             <objects>
-                <viewController title="Legal Policy" useStoryboardIdentifierAsRestorationIdentifier="YES" id="7AG-08-zF4" userLabel="Legal Policy" customClass="GILegalPolicyReaderViewController" sceneMemberID="viewController">
+                <viewController title="Legal Policy" useStoryboardIdentifierAsRestorationIdentifier="YES" id="7AG-08-zF4" userLabel="About Giusto" customClass="GILegalPolicyReaderViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="f65-HF-28t"/>
                         <viewControllerLayoutGuide type="bottom" id="KJK-6O-8lJ"/>
