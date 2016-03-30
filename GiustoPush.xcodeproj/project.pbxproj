@@ -75,8 +75,8 @@
 		1548008D1CA2E1D800FB7E37 /* GiustoPush */ = {
 			isa = PBXGroup;
 			children = (
-				158D3C581CA32918008AB0C6 /* Screens */,
 				158D3C571CA328FA008AB0C6 /* Delegates */,
+				158D3C581CA32918008AB0C6 /* Screens */,
 				154800901CA2E1D800FB7E37 /* ViewController.swift */,
 				154800951CA2E1D800FB7E37 /* Assets.xcassets */,
 				1548009A1CA2E1D800FB7E37 /* Info.plist */,

@@ -84,6 +84,67 @@
             </objects>
             <point key="canvasLocation" x="74.133333333333326" y="290.15333333333331"/>
         </scene>
+        <!--Change your beers-->
+        <scene sceneID="uoj-sm-1Pa">
+            <objects>
+                <viewController id="cZZ-PI-m2G" customClass="GIChangeBeerViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="lA3-bf-uHd"/>
+                        <viewControllerLayoutGuide type="bottom" id="q4p-PS-mgp"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="B8N-NH-ZaC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="WsM-AJ-Nb8" userLabel="Beer Table View">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <view key="tableHeaderView" contentMode="scaleToFill" id="T1n-1R-4Fg">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="60"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Here you customize your taste in beer." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Awj-mf-Ay9">
+                                            <rect key="frame" x="8" y="3" width="304" height="53"/>
+                                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                                            <color key="textColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                </view>
+                                <prototypes>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="detailButton" hidesAccessoryWhenEditing="NO" indentationWidth="10" reuseIdentifier="ChangeBeerCell" id="k6O-ae-itL" userLabel="ChangeBeerCell" customClass="GIDrinkItemTableViewCell">
+                                        <rect key="frame" x="0.0" y="82" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="k6O-ae-itL" id="dfQ-3i-pp7">
+                                            <rect key="frame" x="0.0" y="0.0" width="273" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="avatarPlaceholder" translatesAutoresizingMaskIntoConstraints="NO" id="4Z7-rG-hpg" userLabel="Item Image View">
+                                                    <rect key="frame" x="8" y="4" width="36" height="36"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="4qL-Tw-DqT" userLabel="Item Title Label">
+                                                    <rect key="frame" x="52" y="0.0" width="221" height="44"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Change your beers" id="2Be-Xe-zWK" userLabel="Change your beers">
+                        <barButtonItem key="rightBarButtonItem" title="Continue" id="UUJ-sU-g7L" userLabel="Continue"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QLQ-ZT-pCc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="126" y="928"/>
+        </scene>
         <!--Change Password -->
         <scene sceneID="n63-ay-xuI">
             <objects>
@@ -682,28 +743,12 @@
             </objects>
             <point key="canvasLocation" x="444" y="280"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="xrb-JO-tVc">
-            <objects>
-                <viewController id="Ps2-gM-8qk" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="BJk-8D-U6v"/>
-                        <viewControllerLayoutGuide type="bottom" id="Xy8-E8-M20"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="dOe-Xw-HyO">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="1H0-Gp-bfp" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-        </scene>
     </scenes>
     <resources>
         <image name="Giusto_Final Files_logo" width="601" height="201"/>
         <image name="arrow" width="8" height="12"/>
         <image name="avatarPhotoFrame" width="70" height="70"/>
+        <image name="avatarPlaceholder" width="48" height="48"/>
         <image name="check" width="20" height="14"/>
         <image name="login-button-small" width="151" height="43"/>
         <image name="loginButton" width="280" height="46"/>
