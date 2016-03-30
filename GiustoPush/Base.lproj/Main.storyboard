@@ -329,6 +329,32 @@
             </objects>
             <point key="canvasLocation" x="1323" y="-56"/>
         </scene>
+        <!--Help & Feedback-->
+        <scene sceneID="x78-yG-NAg">
+            <objects>
+                <viewController title="Help and Support" useStoryboardIdentifierAsRestorationIdentifier="YES" id="mSY-HW-cV4" userLabel="Help &amp; Feedback" customClass="GIHelpAndSupportViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="l0I-kr-o9m"/>
+                        <viewControllerLayoutGuide type="bottom" id="tVB-kG-Gcb"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="dB4-Rd-Tf7">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eZn-6s-j0A">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="504"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <value key="contentSizeForViewInPopover" type="size" width="320" height="504"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="g2S-NX-To6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1300" y="568"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="vgl-3i-McB">
             <objects>
