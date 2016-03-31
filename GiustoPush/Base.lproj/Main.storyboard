@@ -189,68 +189,132 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kjw-gz-qYt" userLabel="Change Password Form Container">
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kjw-gz-qYt" userLabel="Change Password Form Container">
                                 <rect key="frame" x="0.0" y="40" width="320" height="140"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cdF-G2-mLh" userLabel="Current Password Form Container">
+                                    <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cdF-G2-mLh" userLabel="Current Password Form Container">
                                         <rect key="frame" x="0.0" y="2" width="320" height="44"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Current" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hIy-dR-kwH" userLabel="Current Label">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Current" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hIy-dR-kwH" userLabel="Current Label">
                                                 <rect key="frame" x="10" y="13" width="55" height="17"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="17" id="f1B-Mx-pdP"/>
+                                                    <constraint firstAttribute="width" constant="55" id="ubx-i1-ZqO"/>
+                                                </constraints>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
                                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" minimumFontSize="14" translatesAutoresizingMaskIntoConstraints="NO" id="n1c-9l-ykB" userLabel="Current TextField">
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" minimumFontSize="14" translatesAutoresizingMaskIntoConstraints="NO" id="n1c-9l-ykB" userLabel="Current TextField">
                                                 <rect key="frame" x="90" y="11" width="223" height="22"/>
                                                 <color key="tintColor" red="1" green="0.4445393789" blue="0.20009892909999999" alpha="1" colorSpace="calibratedRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="22" id="zc4-8s-Xa0"/>
+                                                </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardAppearance="light" returnKeyType="next" secureTextEntry="YES"/>
                                             </textField>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstItem="n1c-9l-ykB" firstAttribute="centerY" secondItem="cdF-G2-mLh" secondAttribute="centerY" id="2rL-Fl-6Cz"/>
+                                            <constraint firstItem="n1c-9l-ykB" firstAttribute="leading" secondItem="hIy-dR-kwH" secondAttribute="leading" constant="25" id="7HB-Lo-EIA"/>
+                                            <constraint firstItem="hIy-dR-kwH" firstAttribute="centerY" secondItem="cdF-G2-mLh" secondAttribute="centerY" id="Sbc-KU-513"/>
+                                            <constraint firstAttribute="height" constant="44" id="V0s-rI-bhU"/>
+                                            <constraint firstAttribute="trailing" secondItem="n1c-9l-ykB" secondAttribute="trailing" constant="7" id="cXy-ca-FX5"/>
+                                            <constraint firstItem="hIy-dR-kwH" firstAttribute="leading" secondItem="cdF-G2-mLh" secondAttribute="leading" constant="10" id="prR-M3-puq"/>
+                                        </constraints>
                                     </view>
-                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Fox-xk-LId" userLabel="New Password Field Container">
+                                    <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Fox-xk-LId" userLabel="New Password Field Container">
                                         <rect key="frame" x="0.0" y="48" width="320" height="44"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="New" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yoe-1l-yG2" userLabel="New Label">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="New" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yoe-1l-yG2" userLabel="New Label">
                                                 <rect key="frame" x="10" y="13" width="37" height="17"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="17" id="3r8-7C-KBO"/>
+                                                    <constraint firstAttribute="width" constant="37" id="sDh-wM-AOh"/>
+                                                </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" minimumFontSize="14" translatesAutoresizingMaskIntoConstraints="NO" id="8eV-Qp-Zve" userLabel="New TextField">
-                                                <rect key="frame" x="111" y="7" width="97" height="30"/>
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" minimumFontSize="14" translatesAutoresizingMaskIntoConstraints="NO" id="8eV-Qp-Zve" userLabel="New TextField">
+                                                <rect key="frame" x="90" y="11" width="223" height="22"/>
                                                 <color key="tintColor" red="1" green="0.4445393789" blue="0.20009892909999999" alpha="1" colorSpace="calibratedRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="22" id="Xbg-wH-R1h"/>
+                                                </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardAppearance="light" returnKeyType="next" secureTextEntry="YES"/>
                                             </textField>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstItem="8eV-Qp-Zve" firstAttribute="leading" secondItem="yoe-1l-yG2" secondAttribute="leading" id="2SN-bQ-pRj"/>
+                                            <constraint firstAttribute="height" constant="44" id="Ezo-Xh-Bic"/>
+                                            <constraint firstItem="8eV-Qp-Zve" firstAttribute="centerY" secondItem="Fox-xk-LId" secondAttribute="centerY" id="UnK-Wb-pRc"/>
+                                            <constraint firstItem="yoe-1l-yG2" firstAttribute="centerY" secondItem="Fox-xk-LId" secondAttribute="centerY" id="d0j-jg-m9d"/>
+                                            <constraint firstItem="yoe-1l-yG2" firstAttribute="leading" secondItem="Fox-xk-LId" secondAttribute="leading" constant="10" id="u0S-Cm-YMU"/>
+                                            <constraint firstAttribute="trailing" secondItem="8eV-Qp-Zve" secondAttribute="trailing" constant="7" id="yUm-pf-VaM"/>
+                                        </constraints>
                                     </view>
-                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OrX-cv-nBH" userLabel="Confirm Password Field Container">
+                                    <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OrX-cv-nBH" userLabel="Confirm Password Field Container">
                                         <rect key="frame" x="0.0" y="94" width="320" height="44"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Confirm" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pND-x9-wyM" userLabel="Confirm Label">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Confirm" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pND-x9-wyM" userLabel="Confirm Label">
                                                 <rect key="frame" x="10" y="13" width="58" height="17"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="17" id="Yri-MO-dMp"/>
+                                                    <constraint firstAttribute="width" constant="58" id="vH2-zT-sTj"/>
+                                                </constraints>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
                                                 <color key="textColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" minimumFontSize="14" translatesAutoresizingMaskIntoConstraints="NO" id="S3O-Oc-cqy" userLabel="Confirm TextField">
+                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" minimumFontSize="14" translatesAutoresizingMaskIntoConstraints="NO" id="S3O-Oc-cqy" userLabel="Confirm TextField">
                                                 <rect key="frame" x="90" y="11" width="223" height="22"/>
                                                 <color key="tintColor" red="1" green="0.4445393789" blue="0.20009892909999999" alpha="1" colorSpace="calibratedRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="22" id="Jmx-Z7-A9K"/>
+                                                </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                 <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardAppearance="light" returnKeyType="next"/>
                                             </textField>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstItem="pND-x9-wyM" firstAttribute="leading" secondItem="OrX-cv-nBH" secondAttribute="leading" constant="10" id="8kd-D3-suh"/>
+                                            <constraint firstItem="S3O-Oc-cqy" firstAttribute="leading" secondItem="pND-x9-wyM" secondAttribute="leading" constant="22" id="Nj9-AO-hRi"/>
+                                            <constraint firstAttribute="height" constant="44" id="TXL-su-Van"/>
+                                            <constraint firstAttribute="trailing" secondItem="S3O-Oc-cqy" secondAttribute="trailing" constant="7" id="VDk-YE-BXN"/>
+                                            <constraint firstItem="S3O-Oc-cqy" firstAttribute="centerY" secondItem="OrX-cv-nBH" secondAttribute="centerY" id="VaH-ji-TS4"/>
+                                            <constraint firstItem="pND-x9-wyM" firstAttribute="centerY" secondItem="OrX-cv-nBH" secondAttribute="centerY" id="aBp-X3-K6t"/>
+                                        </constraints>
                                     </view>
                                 </subviews>
                                 <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="Fox-xk-LId" secondAttribute="trailing" id="Bpd-ma-knm"/>
+                                    <constraint firstItem="OrX-cv-nBH" firstAttribute="top" secondItem="Fox-xk-LId" secondAttribute="top" constant="2" id="C7q-2L-dlL"/>
+                                    <constraint firstAttribute="height" constant="140" id="INJ-a5-mqS"/>
+                                    <constraint firstAttribute="trailing" secondItem="cdF-G2-mLh" secondAttribute="trailing" id="Rqt-NG-WeN"/>
+                                    <constraint firstItem="OrX-cv-nBH" firstAttribute="leading" secondItem="kjw-gz-qYt" secondAttribute="leading" id="URg-te-aTr"/>
+                                    <constraint firstAttribute="trailing" secondItem="OrX-cv-nBH" secondAttribute="trailing" id="XzA-qJ-quR"/>
+                                    <constraint firstItem="Fox-xk-LId" firstAttribute="leading" secondItem="kjw-gz-qYt" secondAttribute="leading" id="iJb-pu-Ku9"/>
+                                    <constraint firstItem="Fox-xk-LId" firstAttribute="top" secondItem="cdF-G2-mLh" secondAttribute="top" constant="2" id="wDd-bm-oyk"/>
+                                    <constraint firstItem="cdF-G2-mLh" firstAttribute="leading" secondItem="kjw-gz-qYt" secondAttribute="leading" id="wpP-xP-WIX"/>
+                                </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="kjw-gz-qYt" secondAttribute="width" id="A7H-UU-Tr4"/>
+                            <constraint firstItem="kjw-gz-qYt" firstAttribute="top" secondItem="0KN-Gw-Blh" secondAttribute="bottom" constant="40" id="Sjk-to-ngT"/>
+                            <constraint firstItem="ixf-1I-8sn" firstAttribute="top" secondItem="kjw-gz-qYt" secondAttribute="bottom" constant="324" id="Wf5-Yp-RW6"/>
+                            <constraint firstItem="kjw-gz-qYt" firstAttribute="leading" secondItem="8gN-Qg-LQN" secondAttribute="leadingMargin" id="XQL-k9-FHq"/>
+                            <constraint firstItem="cdF-G2-mLh" firstAttribute="centerY" secondItem="8gN-Qg-LQN" secondAttribute="centerY" id="hgL-rM-CUy"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="kjw-gz-qYt" secondAttribute="trailing" id="swP-8O-tOd"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Title" id="y7t-xw-ajQ" userLabel="Change Password">
                         <barButtonItem key="rightBarButtonItem" title="Save" id="LXg-Et-bll" userLabel="Save"/>
