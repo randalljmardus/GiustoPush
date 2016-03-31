@@ -192,7 +192,7 @@
                             <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kjw-gz-qYt" userLabel="Change Password Form Container">
                                 <rect key="frame" x="0.0" y="40" width="320" height="140"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cdF-G2-mLh" userLabel="Current Password Form Container">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cdF-G2-mLh" userLabel="Current Password Form Container">
                                         <rect key="frame" x="0.0" y="2" width="320" height="44"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Current" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hIy-dR-kwH" userLabel="Current Label">
@@ -250,7 +250,7 @@
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
-                                            <constraint firstItem="8eV-Qp-Zve" firstAttribute="leading" secondItem="yoe-1l-yG2" secondAttribute="leading" id="2SN-bQ-pRj"/>
+                                            <constraint firstItem="8eV-Qp-Zve" firstAttribute="leading" secondItem="yoe-1l-yG2" secondAttribute="leading" constant="43" id="Dgw-Tg-5Y5"/>
                                             <constraint firstAttribute="height" constant="44" id="Ezo-Xh-Bic"/>
                                             <constraint firstItem="8eV-Qp-Zve" firstAttribute="centerY" secondItem="Fox-xk-LId" secondAttribute="centerY" id="UnK-Wb-pRc"/>
                                             <constraint firstItem="yoe-1l-yG2" firstAttribute="centerY" secondItem="Fox-xk-LId" secondAttribute="centerY" id="d0j-jg-m9d"/>
@@ -284,24 +284,25 @@
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstItem="pND-x9-wyM" firstAttribute="leading" secondItem="OrX-cv-nBH" secondAttribute="leading" constant="10" id="8kd-D3-suh"/>
-                                            <constraint firstItem="S3O-Oc-cqy" firstAttribute="leading" secondItem="pND-x9-wyM" secondAttribute="leading" constant="22" id="Nj9-AO-hRi"/>
                                             <constraint firstAttribute="height" constant="44" id="TXL-su-Van"/>
                                             <constraint firstAttribute="trailing" secondItem="S3O-Oc-cqy" secondAttribute="trailing" constant="7" id="VDk-YE-BXN"/>
                                             <constraint firstItem="S3O-Oc-cqy" firstAttribute="centerY" secondItem="OrX-cv-nBH" secondAttribute="centerY" id="VaH-ji-TS4"/>
                                             <constraint firstItem="pND-x9-wyM" firstAttribute="centerY" secondItem="OrX-cv-nBH" secondAttribute="centerY" id="aBp-X3-K6t"/>
+                                            <constraint firstItem="S3O-Oc-cqy" firstAttribute="leading" secondItem="pND-x9-wyM" secondAttribute="leading" constant="22" id="oIo-vI-beH"/>
                                         </constraints>
                                     </view>
                                 </subviews>
                                 <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
+                                    <constraint firstItem="OrX-cv-nBH" firstAttribute="top" secondItem="Fox-xk-LId" secondAttribute="top" constant="2" id="8VQ-AS-N4W"/>
                                     <constraint firstAttribute="trailing" secondItem="Fox-xk-LId" secondAttribute="trailing" id="Bpd-ma-knm"/>
-                                    <constraint firstItem="OrX-cv-nBH" firstAttribute="top" secondItem="Fox-xk-LId" secondAttribute="top" constant="2" id="C7q-2L-dlL"/>
                                     <constraint firstAttribute="height" constant="140" id="INJ-a5-mqS"/>
+                                    <constraint firstItem="cdF-G2-mLh" firstAttribute="top" secondItem="kjw-gz-qYt" secondAttribute="top" constant="2" id="Lhx-Cw-ooJ"/>
                                     <constraint firstAttribute="trailing" secondItem="cdF-G2-mLh" secondAttribute="trailing" id="Rqt-NG-WeN"/>
                                     <constraint firstItem="OrX-cv-nBH" firstAttribute="leading" secondItem="kjw-gz-qYt" secondAttribute="leading" id="URg-te-aTr"/>
                                     <constraint firstAttribute="trailing" secondItem="OrX-cv-nBH" secondAttribute="trailing" id="XzA-qJ-quR"/>
+                                    <constraint firstItem="Fox-xk-LId" firstAttribute="top" secondItem="cdF-G2-mLh" secondAttribute="top" constant="2" id="bR2-hV-pF8"/>
                                     <constraint firstItem="Fox-xk-LId" firstAttribute="leading" secondItem="kjw-gz-qYt" secondAttribute="leading" id="iJb-pu-Ku9"/>
-                                    <constraint firstItem="Fox-xk-LId" firstAttribute="top" secondItem="cdF-G2-mLh" secondAttribute="top" constant="2" id="wDd-bm-oyk"/>
                                     <constraint firstItem="cdF-G2-mLh" firstAttribute="leading" secondItem="kjw-gz-qYt" secondAttribute="leading" id="wpP-xP-WIX"/>
                                 </constraints>
                             </view>
