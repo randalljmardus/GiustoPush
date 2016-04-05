@@ -659,10 +659,10 @@
                         <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fNT-ts-K59" customClass="TPKeyboardAvoidScrollView">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fNT-ts-K59" customClass="TPKeyboardAvoidScrollView">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="smW-E0-PCe" userLabel="Content View">
+                                    <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="smW-E0-PCe" userLabel="Content View">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="x4M-cS-DEo" userLabel="Sign Up Form Container">
@@ -748,6 +748,13 @@
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="fNT-ts-K59" secondAttribute="trailing" id="Rb1-yh-Dae"/>
+                            <constraint firstAttribute="height" secondItem="smW-E0-PCe" secondAttribute="height" constant="64" id="duP-NF-TBj"/>
+                            <constraint firstItem="fNT-ts-K59" firstAttribute="leading" secondItem="DrC-eY-X3h" secondAttribute="leadingMargin" id="l9B-Cn-QO7"/>
+                            <constraint firstItem="fNT-ts-K59" firstAttribute="top" secondItem="Umr-gx-9kj" secondAttribute="bottom" id="pUf-or-BQb"/>
+                            <constraint firstAttribute="width" secondItem="smW-E0-PCe" secondAttribute="width" id="sqo-Dh-vI2"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Sign Up" id="zWL-YR-Uqh" userLabel="Sign Up">
                         <barButtonItem key="rightBarButtonItem" image="check" id="smp-EE-PlJ" userLabel="Done Button">
