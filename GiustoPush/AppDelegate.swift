@@ -95,9 +95,43 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         print("Failed to register:", error)
     }
     
-    func application(application: UIApplication, didReceiveRemoteNotification userInfo: [NSObject : AnyObject]) {
+    func application(application: UIApplication, didReceiveRemoteNotification userInfo: [NSObject : AnyObject], fetchCompletionHandler completionHandler: (UIBackgroundFetchResult) -> Void) {
         let aps = userInfo["aps"] as! [String: AnyObject]
-        createNewNewsItem(aps)
+        
+        // 1
+        if (aps["content-available"] as? NSString)?.integerValue == 1 {
+            // Refresh Podcast
+            // 2
+            let podcastStore = PodcastStore.sharedStore
+            podcastStore.refreshItems { didLoadNewItems in
+                // 3
+                completionHandler(didLoadNewItems ? .NewData : .NoData)
+            }
+        } else  {
+            // News
+            // 4
+            createNewNewsItem(aps)
+            completionHandler(.NewData)
+        }
+    }
+    
+    func application(application: UIApplication, handleActionWithIdentifier identifier: String?, forRemoteNotification userInfo: [NSObject : AnyObject], completionHandler: () -> Void) {
+        // 1
+        let aps = userInfo["aps"] as! [String: AnyObject]
+        
+        // 2
+        if let newsItem = createNewNewsItem(aps) {
+            (window?.rootViewController as? UITabBarController)?.selectedIndex = 1
+            
+            // 3
+            if identifier == "VIEW_IDENTIFIER", let url = NSURL(string: newsItem.link) {
+                let safari = SFSafariViewController(URL: url)
+                window?.rootViewController?.presentViewController(safari, animated: true, completion: nil)
+            }
+        }
+        
+        // 4
+        completionHandler()
     }
 
 
