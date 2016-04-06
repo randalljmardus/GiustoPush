@@ -22,6 +22,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         registerForPushNotifications(application)
 
         Fabric.with([Crashlytics.self])
+        
+        // Check if launched from notification
+        // 1
+        if let notification = launchOptions?[UIApplicationLaunchOptionsRemoteNotificationKey] as? [String: AnyObject] {
+            // 2
+            let aps = notification["aps"] as! [String: AnyObject]
+            createNewNewsItem(aps)
+            // 3
+            (window?.rootViewController as? UITabBarController)?.selectedIndex = 1
+        }
+        
         return true
     }
 
@@ -46,10 +57,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationWillTerminate(application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
+    //steps & code for push notifications came from https://www.raywenderlich.com/123862/push-notifications-tutorial?utm_source=raywenderlich.com+Weekly&utm_campaign=db2b4f7f1b-raywenderlich_com_Weekly3_08_2016&utm_medium=email&utm_term=0_83b6edc87f-db2b4f7f1b-415671397
     
     func registerForPushNotifications(application: UIApplication) {
-        let notificationSettings = UIUserNotificationSettings(
-            forTypes: [.Badge, .Sound, .Alert], categories: nil)
+        let viewAction = UIMutableUserNotificationAction()
+        viewAction.identifier = "VIEW_IDENTIFIER"
+        viewAction.title = "View"
+        viewAction.activationMode = .Foreground
+        
+        let newsCategory = UIMutableUserNotificationCategory()
+        newsCategory.identifier = "NEWS_CATEGORY"
+        newsCategory.setActions([viewAction], forContext: .Default)
+        
+        let notificationSettings = UIUserNotificationSettings(forTypes: [.Badge, .Sound, .Alert], categories: [newsCategory])
+        
         application.registerUserNotificationSettings(notificationSettings)
     }
     
@@ -72,6 +93,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     func application(application: UIApplication, didFailToRegisterForRemoteNotificationsWithError error: NSError) {
         print("Failed to register:", error)
+    }
+    
+    func application(application: UIApplication, didReceiveRemoteNotification userInfo: [NSObject : AnyObject]) {
+        let aps = userInfo["aps"] as! [String: AnyObject]
+        createNewNewsItem(aps)
     }
 
 
