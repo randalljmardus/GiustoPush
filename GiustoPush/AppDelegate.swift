@@ -23,6 +23,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
         Fabric.with([Crashlytics.self])
         
+        KCSClient.sharedClient().initializeKinveyServiceForAppKey(
+            "kid_byIN6_PrbZ", //this is actually the app ID from Kinvey, not the app key, in case it is rejected
+            withAppSecret: "8edda00ce47f472ab7ed4f6dae3ff432",
+            usingOptions: nil
+        )
+        //the following line will contact the backend and verify that the library can communicate with GiustoPush; not necessary to keep while in production
+        KCSPing.pingKinveyWithBlock { (result: KCSPingResult!) -> Void in
+            if result.pingWasSuccessful {
+                NSLog("Kinvey Ping Success")
+            } else {
+                NSLog("Kinvey Ping Failed")
+            }
+        }
         // Check if launched from notification
         // 1
         if let notification = launchOptions?[UIApplicationLaunchOptionsRemoteNotificationKey] as? [String: AnyObject] {
@@ -100,7 +113,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         // 1
         if (aps["content-available"] as? NSString)?.integerValue == 1 {
-            // Refresh Podcast
+            // Refresh Podcast; change Podcast references to GPush ones; the Podcast is a reference to the original Wenderlich tutorial
             // 2
             let podcastStore = PodcastStore.sharedStore
             podcastStore.refreshItems { didLoadNewItems in
