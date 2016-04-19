@@ -46,6 +46,7 @@
 		1515E0061CC53B30000B5AC1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1515E0081CC53B3B000B5AC1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		1515E00A1CC56533000B5AC1 /* GiustoPush-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GiustoPush-Bridging-Header.h"; sourceTree = "<group>"; };
+		1515E00B1CC6891D000B5AC1 /* GiustoPush-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GiustoPush-Prefix.pch"; sourceTree = "<group>"; };
 		1548008B1CA2E1D800FB7E37 /* GiustoPush.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GiustoPush.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1548008E1CA2E1D800FB7E37 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		154800901CA2E1D800FB7E37 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -137,6 +138,7 @@
 				154800901CA2E1D800FB7E37 /* ViewController.swift */,
 				154800951CA2E1D800FB7E37 /* Assets.xcassets */,
 				1548009A1CA2E1D800FB7E37 /* Info.plist */,
+				1515E00B1CC6891D000B5AC1 /* GiustoPush-Prefix.pch */,
 			);
 			path = GiustoPush;
 			sourceTree = "<group>";
